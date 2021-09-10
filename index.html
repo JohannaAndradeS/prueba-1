@@ -1,12 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PAGINA WEB</title>
+    <link rel="stylesheet" href="css/estilo1.css" />
+
+   
 </head>
 <body>
-    <h1>si sirvio urra!!</h1>
+    <HEADER>
+        <center><img src="img/logo-tiempo.jpg" alt="Tiempo" height="30" width="100" title="El tiempo"></center>
+        <li><a href="www.uniquindio.com">item 1</a></li>
+        <li><a href="www.uniquindio.com">item 2</a></li>
+        <li><a href="www.uniquindio.com">item 3</a></li>
+
+
+
+    </HEADER>
+    <br />
+    <br />
+    <main>
+        <form>
+            <!--Formularios-->
+            <center>
+                <h1>Formulario prueba</h1></center>
+            <label for="Nombre">Nombre*</label>&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="Nombre" nombre="txtNombre" maxlength="50" size="50" required placeholder="Nombre usuario"></input><br />
+            <!--<label>Correo electronico</label>--><br />
+            <input type="email" nombre="txtCorreo"size="30" placeholder="Correo electronico"></input><br />
+            <label>Número de telefono</label><br />
+            <input type="number" nombre="txtTelefono" size="10" max="20" min="2"></input><br />
+            <label>Ejemplo Fecha</label><br />
+            <input type="date" name="txtFecha"></input><br />
+            <label>Buscar</label><br />
+            <input type="search" name="txtBucar"></input><br />
+            <label>Ejemplo month</label><br />
+            <input type="month" name="txtMonth"></input><br />
+            <label>Ejemplo clave</label><br />
+            <input type="password" name="txtClave"></input><br />
+            <p>hola color</p>
+            
+            <br />
+           <label>Seleccionar vehiculo</label><br />
+            <select name="Seleccionar">
+                <option value=1>Mercedes</option>
+                <option value=2>BMW</option>
+                <option value=3>Chevrolet</option>
+                <option value=4>Maria</option>
+                
+            </select>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+
+            <label>Observaciones</label><br />
+            <textarea name="txtObservaciones" rows="3" cols="60"></textarea>
+            
+
+
+
+
+            <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            <input type="submit" value="Guardar datos"></input><br />
+            <button>Enviar</button>
+            
+        </form>
+        <center><h1>Ejemplo de Tabla Clases</h1>
+        <table border=1>
+            <tr>
+                <th>Equipo</th>
+                <th>Ciudad</th>
+                <th>Titulos NBA</th>
+            </tr>
+            <tr>
+                <td>Lakers</td>
+                <td>Los angeles</td>
+                <td>16</td>
+            </tr>
+            <tr>
+                <td>Celtic</td>
+                <td>Boston</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Celtic</td>
+                <td>Boston</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>Celtic</td>
+                <td>Boston</td>
+                <td>17</td>
+            </tr>
+
+        </table>
+        </center>
+
+    </main>
+    <br />
+    <br />
+    <footer>
+      <center>
+          <h3 id="Fuenteh3">Pie de pagina</h3>
+      </center> 
+        
+
+    </footer>
 </body>
 </html>
